@@ -18,11 +18,6 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\..\build\**">
-      <Pack>true</Pack>
-      <PackagePath>build\</PackagePath>
-      <IncludeInPackage>false</IncludeInPackage>
-    </None>
   </ItemGroup>
 
   <ItemGroup Label="Enabling reproducible builds">

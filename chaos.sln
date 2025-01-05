@@ -10,13 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "configurations", "configura
 		directory.build.props = directory.build.props
 		directory.packages.props = directory.packages.props
 		nuget.config = nuget.config
-		build\Pulsewave.Chaos.targets = build\Pulsewave.Chaos.targets
 		.config\stylecop.json = .config\stylecop.json
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulsewave.Chaos", "src\Pulsewave.Chaos\Pulsewave.Chaos.csproj", "{3CF6359A-9C42-0DC1-AEA5-35E1C3816904}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulsewave.Chaos.Tests", "src\Pulsewave.Chaos.Tests\Pulsewave.Chaos.Tests.csproj", "{D9213D77-09AF-4538-B104-DFFFC25AE163}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,10 +25,6 @@ Global
 		{3CF6359A-9C42-0DC1-AEA5-35E1C3816904}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CF6359A-9C42-0DC1-AEA5-35E1C3816904}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CF6359A-9C42-0DC1-AEA5-35E1C3816904}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D9213D77-09AF-4538-B104-DFFFC25AE163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D9213D77-09AF-4538-B104-DFFFC25AE163}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D9213D77-09AF-4538-B104-DFFFC25AE163}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D9213D77-09AF-4538-B104-DFFFC25AE163}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
