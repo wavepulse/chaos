@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulsewave.Chaos", "src\Puls
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulsewave.Chaos.Setup", "src\Pulsewave.Chaos.Setup\Pulsewave.Chaos.Setup.csproj", "{5288392E-4890-458F-8F8C-6E5DE3128C78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulsewave.Chaos.Tests", "src\Pulsewave.Chaos.Tests\Pulsewave.Chaos.Tests.csproj", "{ECFF9367-4F20-4717-A717-76E84E9A2C40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{5288392E-4890-458F-8F8C-6E5DE3128C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5288392E-4890-458F-8F8C-6E5DE3128C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5288392E-4890-458F-8F8C-6E5DE3128C78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECFF9367-4F20-4717-A717-76E84E9A2C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECFF9367-4F20-4717-A717-76E84E9A2C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECFF9367-4F20-4717-A717-76E84E9A2C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECFF9367-4F20-4717-A717-76E84E9A2C40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

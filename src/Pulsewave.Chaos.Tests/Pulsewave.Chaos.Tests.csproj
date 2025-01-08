@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <PublishAot>true</PublishAot>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <Import Project="..\..\Pulsewave.Chaos.targets" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pulsewave.Chaos\Pulsewave.Chaos.csproj" />
+  </ItemGroup>
+</Project>
