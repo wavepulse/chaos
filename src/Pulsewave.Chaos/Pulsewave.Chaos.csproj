@@ -1,28 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <Title>Pulsewave.Chaos</Title>
     <Version>0.1.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <GenerateSBOM>true</GenerateSBOM>
     <Authors>Pulsewave</Authors>
     <Description>C# wrapper for SDL3</Description>
     <PackageTags>SDL;Wrapper</PackageTags>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageLicenseFile>license</PackageLicenseFile>
     <IsAotCompatible>True</IsAotCompatible>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\readme.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Include="..\..\build\**">
-      <Pack>true</Pack>
-      <PackagePath>build\</PackagePath>
-      <IncludeInPackage>false</IncludeInPackage>
-    </None>
+    <None Include="..\..\readme.md" Pack="true" PackagePath="" />
+    <None Include="..\..\license" Pack="true" PackagePath="" />
+    <None Include="..\..\libs\**" Pack="true" PackagePath="build\" IncludeInPackage="false" />
+    <None Include="..\..\$(MSBuildProjectName).targets" Pack="true" PackagePath="build\" IncludeInPackage="false" />
   </ItemGroup>
 
   <ItemGroup Label="Enabling reproducible builds">

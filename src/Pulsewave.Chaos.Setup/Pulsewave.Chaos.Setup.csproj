@@ -7,9 +7,8 @@
     <InvariantGlobalization>true</InvariantGlobalization>
   </PropertyGroup>
 
-  <Import Project="..\..\Pulsewave.Chaos.targets" />
-
   <ItemGroup>
-    <ProjectReference Include="..\Pulsewave.Chaos\Pulsewave.Chaos.csproj" />
+    <PackageReference Include="Cake.Curl" />
+    <PackageReference Include="Cake.Frosting" />
   </ItemGroup>
 </Project>
