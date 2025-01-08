@@ -1,4 +1,11 @@
 // Copyright (c) Pulsewave. All rights reserved.
 // The source code is licensed under MIT License.
 
-Console.WriteLine("Hello, Chaos!");
+using Pulsewave.Chaos.System;
+
+Console.WriteLine("Using SDL {0}", Sdl.GetVersion());
+
+Sdl.Init(Sdl.SubSystem.Video);
+
+Sdl.QuitSubSystem(Sdl.SubSystem.Video);
+Sdl.Quit();
