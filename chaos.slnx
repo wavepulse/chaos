@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/configurations/">
+    <File Path=".config/stylecop.json" />
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="directory.build.props" />
+    <File Path="directory.packages.props" />
+    <File Path="nuget.config" />
+    <File Path="Pulsewave.Chaos.targets" />
+  </Folder>
+  <Project Path="src/Pulsewave.Chaos.Setup/Pulsewave.Chaos.Setup.csproj" />
+  <Project Path="src/Pulsewave.Chaos.Tests/Pulsewave.Chaos.Tests.csproj" />
+  <Project Path="src/Pulsewave.Chaos/Pulsewave.Chaos.csproj" />
+</Solution>
