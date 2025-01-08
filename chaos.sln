@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "configurations", "configura
 		directory.build.props = directory.build.props
 		directory.packages.props = directory.packages.props
 		nuget.config = nuget.config
+		Pulsewave.Chaos.targets = Pulsewave.Chaos.targets
 		.config\stylecop.json = .config\stylecop.json
 	EndProjectSection
 EndProject
