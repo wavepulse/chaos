@@ -7,7 +7,12 @@
     <InvariantGlobalization>true</InvariantGlobalization>
   </PropertyGroup>
 
-  <Import Project="..\..\Pulsewave.Chaos.targets" />
+  <ItemGroup>
+    <None Include="..\..\libs\*.dll">
+      <Link>%(FileName)%(Extension)</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Pulsewave.Chaos\Pulsewave.Chaos.csproj" />

@@ -10,7 +10,8 @@
     <PackageTags>SDL;Wrapper</PackageTags>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
     <PackageLicenseFile>license</PackageLicenseFile>
-    <IsAotCompatible>True</IsAotCompatible>
+    <IsAotCompatible>true</IsAotCompatible>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <ItemGroup>

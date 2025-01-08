@@ -9,6 +9,16 @@
     <File Path="nuget.config" />
     <File Path="Pulsewave.Chaos.targets" />
   </Folder>
+  <Folder Name="/configurations/rules/" Id="02ea681e-c7d8-13c7-8484-4ac65e1b71e8">
+    <File Path="rules/code.style.editorconfig" />
+    <File Path="rules/disabled.editorconfig" />
+    <File Path="rules/meziantou.editorconfig" />
+    <File Path="rules/name.style.editorconfig" />
+    <File Path="rules/roslynator.editorconfig" />
+    <File Path="rules/sonar.editorconfig" />
+    <File Path="rules/stylecop.editorconfig" />
+    <File Path="rules/vsthrd.editorconfig" />
+  </Folder>
   <Project Path="src/Pulsewave.Chaos.Setup/Pulsewave.Chaos.Setup.csproj" />
   <Project Path="src/Pulsewave.Chaos.Tests/Pulsewave.Chaos.Tests.csproj" />
   <Project Path="src/Pulsewave.Chaos/Pulsewave.Chaos.csproj" />
